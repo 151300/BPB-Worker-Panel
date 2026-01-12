@@ -1,4 +1,4 @@
-<h1 align="center">中文 BPB</h1>
+<h1 align="center">BPB</h1>
 
 ### 🌏 Readme in [English](README_fa.md)
 #### 🌏 Readme in [中文](README.md)
