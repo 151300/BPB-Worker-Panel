@@ -48,7 +48,7 @@
 
 ## 支持的客户端
 
-|       Client        |      Version      |  Fragment support  |  Warp Pro support  |
+|       客户端        |      版本       |  分片协议支持     |  Warp Pro支持     |
 | :-----------------: | :---------------: | :----------------: | :----------------: |
 |     **v2rayNG**     | 1.10.26 or higher | :heavy_check_mark: | :heavy_check_mark: |
 |     **MahsaNG**     |   14 or higher    | :heavy_check_mark: | :heavy_check_mark: |
@@ -64,7 +64,7 @@
 
 ## 环境变量
 
-|   Variable   |               Usage                |     Mandatory      |
+|   变量名     |               用途                 |     是否必需      |
 | :----------: | :--------------------------------: | :----------------: |
 |   **UUID**   |             VLESS UUID             | :heavy_check_mark: |
 | **TR_PASS**  |          Trojan Password           | :heavy_check_mark: |
