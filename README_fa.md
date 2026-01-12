@@ -7,12 +7,12 @@
 </p>
 <br>
 
-## Introduction
+## 介绍
 
-This project is aimed to provide a user panel to access FREE, SECURE and PRIVATE **VLESS**, **Trojan** and **Warp** configs, It ensures connectivity even when domains or Warp services are blocked by ISPs, offering two deployment options:
+本项目旨在提供一个用户面板来访问免费、安全和私密的 **VLESS**、**Trojan** 和 **Warp** 配置，确保即使因ISP封锁域名或Warp服务，也能保持连接，提供两种部署选项：
 
-- **Workers** deployment
-- **Pages** deployment
+- **工人**部署
+- **页面**部署
 
 🌟 If you found **BPB Panel** valuable, Your donations make all the difference 🌟
 
@@ -22,27 +22,26 @@ This project is aimed to provide a user panel to access FREE, SECURE and PRIVATE
 0xbdf15d41C56f861f25b2b11C835bd45dfD5b792F
 ```
 
-## Features
+## 功能
 
-1. **Free and Private**: No costs involved and the server is private.
-2. **Intuitive Panel:** Streamlined for effortless navigation, configuration and use.
-3. **Versatile Protocols:** Provides VLESS, Trojan and Wireguard (Warp) protocols.
-4. **Warp Pro configs:** Optimized Warp for crucial circumstances.
-5. **Fragment support:** Supports Fragment functionality for crucial network situations.
-6. **Comprehensive Routing Rules:** Bypassing Iran/China/Russia, Blocking QUIC, Porn, Ads, Malwares, Phishing and also bypassing sanctions.
-7. **Chain Proxy:** Capable of adding a chain proxy (VLESS, Trojan, Shadowsocks, socks and http) to fix IP.
-8. **Broad client compatibility:** Offers subscription links for Xray, Sing-box and Clash-Mihomo core clients.
-9. **Password-protected panel:** Provides secure and private panel with password protection.
-10. **Fully customizable:** Supports setting up clean IP-domains, Proxy IPs, DNS servers, choosing ports and protocols, Warp endpoints and more.
+1. **免费且私密**: 没有费用，服务器是私有的。
+2. **直观面板**: 极简设计，方便导航、配置和使用。
+3. **多功能协议**: 提供 VLESS、Trojan 和 Wireguard（Warp）协议。
+4. **Warp Pro 配置**: 优化 Warp 适用于关键情况。
+5. **碎片支持**: 支持碎片功能，适用于关键网络情况。
+6. **全面的路由规则**: 避免伊朗/中国/俄罗斯，阻止 QUIC、色情、广告、恶意软件、钓鱼和制裁。
+7. **链式代理**: 能够添加链代理（VLESS、Trojan、Shadowsocks、socks 和 http），以修复 IP。
+8. **广泛客户端兼容性**: 提供订阅链接，适用于 Xray、Sing-box 和 Clash-Mihomo 核心客户端。
+9. **密码保护面板**: 提供安全且私有的面板，支持密码保护。
+10. **完全自定义**: 支持设置清洁域名、代理 IP、DNS 服务器、选择端口和协议、Warp 终点等。
 
-## Limitations
+## 限制
 
-1. **UDP transport**: VLESS and Trojan protocols on workers do not handle **UDP** properly, so it is disabled by default (affecting features like Telegram video calls), UDP DNS is also unsupported. DoH is enabled by default for enhanced security.
-2. **Request limit**: each worker supports 100K requests per day for VLESS and Trojan, suitable for 2-3 users. You can use limitless Warp configs.
+1. **UDP 传输**: VLESS 和 Trojan 协议在工人上不正确处理 **UDP**，因此默认禁用（影响 Telegram 视频通话等特性），UDP DNS 也未支持。DoH 默认启用以增强安全性。
+2. **请求限制**: 每个工人支持每天 100K 请求（适用于 2-3 个用户）。您可以使用无限的 Warp 配置。
 
-## Getting started
-
-- [Installation methods](https://bia-pain-bache.github.io/BPB-Worker-Panel/installation/wizard/)
+## 开始使用
+- [安装方法](https://bia-pain-bache.github.io/BPB-Worker-Panel/installation/wizard/)
 - [Configuration](https://bia-pain-bache.github.io/BPB-Worker-Panel/configuration/)
 - [How to use](https://bia-pain-bache.github.io/BPB-Worker-Panel/usage/)
 - [FAQ](https://bia-pain-bache.github.io/BPB-Worker-Panel/faq/)
