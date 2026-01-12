@@ -1,7 +1,7 @@
 <h1 align="center">中文 BPB</h1>
 
-#### 🌏 Readme in [English](README.md)
-
+### 🌏 Readme in [English](README_fa.md)
+#### 🌏 Readme in [中文](README.md)
 <p align="center">
   <img src="docs/assets/images/panel-overview.jpg">
 </p>
