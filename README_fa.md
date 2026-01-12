@@ -1,4 +1,4 @@
-<h1 align="center">cn BPB</h1>
+<h1 align="center">中文 BPB</h1>
 
 #### 🌏 Readme in [English](README.md)
 
@@ -42,11 +42,11 @@
 
 ## 开始使用
 - [安装方法](https://bia-pain-bache.github.io/BPB-Worker-Panel/installation/wizard/)
-- [Configuration](https://bia-pain-bache.github.io/BPB-Worker-Panel/configuration/)
-- [How to use](https://bia-pain-bache.github.io/BPB-Worker-Panel/usage/)
-- [FAQ](https://bia-pain-bache.github.io/BPB-Worker-Panel/faq/)
+- [配置](https://bia-pain-bache.github.io/BPB-Worker-Panel/configuration/)
+- [使用方法](https://bia-pain-bache.github.io/BPB-Worker-Panel/usage/)
+- [常见问题解答](https://bia-pain-bache.github.io/BPB-Worker-Panel/faq/)
 
-## Supported Clients
+## 支持的客户端
 
 |       Client        |      Version      |  Fragment support  |  Warp Pro support  |
 | :-----------------: | :---------------: | :----------------: | :----------------: |
@@ -62,7 +62,7 @@
 |   **AmneziaVPN**    |                   |        :x:         | :heavy_check_mark: |
 |    **WG Tunnel**    |                   |        :x:         | :heavy_check_mark: |
 
-## Environment variables
+## 环境变量
 
 |   Variable   |               Usage                |     Mandatory      |
 | :----------: | :--------------------------------: | :----------------: |
@@ -76,13 +76,13 @@
 
 ---
 
-## Stargazers Over Time
+## 项目关注数随时间变化趋势
 
-[![Stargazers Over Time](https://starchart.cc/bia-pain-bache/BPB-Worker-Panel.svg?variant=adaptive)](https://starchart.cc/bia-pain-bache/BPB-Worker-Panel)
+[![项目关注数随时间变化趋势](https://starchart.cc/bia-pain-bache/BPB-Worker-Panel.svg?variant=adaptive)](https://starchart.cc/bia-pain-bache/BPB-Worker-Panel)
 
 ---
 
-### Special Thanks
+### 特别鸣谢
 
 - VLESS, Trojan [Cloudflare-workers/pages proxy script](https://github.com/yonggekkk/Cloudflare-workers-pages-vless) created by [yonggekkk](https://github.com/yonggekkk)
 - CF-vless code author [3Kmfi6HP](https://github.com/3Kmfi6HP/EDtunnel)
