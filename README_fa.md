@@ -67,11 +67,11 @@
 |   变量名     |               用途                 |     是否必需      |
 | :----------: | :--------------------------------: | :----------------: |
 |   **UUID**   |             VLESS UUID             | :heavy_check_mark: |
-| **TR_PASS**  |          Trojan Password           | :heavy_check_mark: |
-| **PROXY_IP** | Proxy IP or domain (VLESS, Trojan) |        :x:         |
-|  **PREFIX**  |   NAT64 Prefixes (VLESS, Trojan)   |        :x:         |
-| **SUB_PATH** |         Subscriptions' URI         |        :x:         |
-| **FALLBACK** |  Fallback domain (VLESS, Trojan)   |        :x:         |
+| **TR_PASS**  |          Trojan 密码            | :heavy_check_mark: |
+| **PROXY_IP** | 代理服务器 IP 或域名 (VLESS, Trojan) |        :x:         |
+|  **PREFIX**  |   NAT64 前缀  (VLESS, Trojan)   |        :x:         |
+| **SUB_PATH** |         订阅服务的    ' URI         |        :x:         |
+| **FALLBACK** |  备用域名 (VLESS, Trojan)   |        :x:         |
 | **DOH_URL**  |              Core DOH              |        :x:         |
 
 ---
