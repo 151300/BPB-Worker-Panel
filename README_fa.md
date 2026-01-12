@@ -1,4 +1,4 @@
-<h1 align="center">پنل BPB</h1>
+<h1 align="center">cn BPB</h1>
 
 #### 🌏 Readme in [English](README.md)
 
@@ -7,14 +7,14 @@
 </p>
 <br>
 
-## معرفی
+## Introduction
 
-این پروژه یه پنل کاربری برای دسترسی به کانفیگ‌های رایگان، امن و خصوصی **VLESS**، **Trojan** و **Warp** ارائه می‌ده. حتی وقتی دامنه‌ها یا سرویس Warp توسط اپراتورها فیلتر شدن، اتصال رو تضمین می‌کنه. این پنل به دو روش راه‌اندازی می‌شه:
+This project is aimed to provide a user panel to access FREE, SECURE and PRIVATE **VLESS**, **Trojan** and **Warp** configs, It ensures connectivity even when domains or Warp services are blocked by ISPs, offering two deployment options:
 
-- با **Cloudflare Workers**
-- با **Cloudflare Pages**
+- **Workers** deployment
+- **Pages** deployment
 
-🌟 اگه **پنل BPB** براتون مفید بوده، با حمایتتون بهم دلگرمی می‌دید 🌟
+🌟 If you found **BPB Panel** valuable, Your donations make all the difference 🌟
 
 ### USDT (BEP20)
 
@@ -22,77 +22,69 @@
 0xbdf15d41C56f861f25b2b11C835bd45dfD5b792F
 ```
 
-## ویژگی‌ها
+## Features
 
-- **رایگان و شخصی**: بدون هیچ هزینه‌ای، سرور شما شخصی هست.
-- **پنل کاربری ساده**: کار باهاش راحته و تنظیمات و استفاده ازش خیلی آسونه.
-- **پروتکل‌های متنوع**: ارائه کانفیگ‌های VLESS، Trojan و Wireguard (Warp).
-- **کانفیگ‌های Warp Pro**: کانفیگ‌های Warp بهینه‌شده برای شرایط خاص ایران.
-- **پشتیبانی از Fragment**: اتصال حتی در صورت فیلتر شدن دامنه.
-- **قوانین مسیریابی کامل**: دور زدن سایت‌های ایرانی، چینی و روسی، مسدود کردن QUIC، محتوای پورن، تبلیغات، بدافزارها، فیشینگ و در زدن سایت‌های تحریمی.
-- **زنجیره‌ی Proxy**: می‌تونید یه Proxy زنجیره‌ای از نوع VLESS، Trojan، Shadowsocks، Socks یا http اضافه کنید تا IP ثابت بشه.
-- **پشتیبانی از برنامه‌های مختلف**: لینک‌های اشتراک برای برنامه‌های با هسته‌های Xray، Sing-box و Clash-Mihomo.
-- **پنل امن با رمز عبور**: پنل محافظت شده با رمز عبور.
-- **سفارشی‌سازی کامل**: تنظیم IP تمیز، Proxy IP، سرورهای DNS، انتخاب پورت‌ها و پروتکل‌ها، Warp Endpoint و خیلی امکانات دیگه.
+1. **Free and Private**: No costs involved and the server is private.
+2. **Intuitive Panel:** Streamlined for effortless navigation, configuration and use.
+3. **Versatile Protocols:** Provides VLESS, Trojan and Wireguard (Warp) protocols.
+4. **Warp Pro configs:** Optimized Warp for crucial circumstances.
+5. **Fragment support:** Supports Fragment functionality for crucial network situations.
+6. **Comprehensive Routing Rules:** Bypassing Iran/China/Russia, Blocking QUIC, Porn, Ads, Malwares, Phishing and also bypassing sanctions.
+7. **Chain Proxy:** Capable of adding a chain proxy (VLESS, Trojan, Shadowsocks, socks and http) to fix IP.
+8. **Broad client compatibility:** Offers subscription links for Xray, Sing-box and Clash-Mihomo core clients.
+9. **Password-protected panel:** Provides secure and private panel with password protection.
+10. **Fully customizable:** Supports setting up clean IP-domains, Proxy IPs, DNS servers, choosing ports and protocols, Warp endpoints and more.
 
-## محدودیت‌ها
+## Limitations
 
-- **اتصال UDP**: پروتکل‌های VLESS و Trojan روی Workerها نمی‌تونن UDP رو به‌خوبی پشتیبانی کنن، برای همین به‌صورت پیش‌فرض غیرفعاله (این روی امکاناتی مثل تماس تصویری تلگرام تأثیر می‌ذاره). DNSهای UDP هم پشتیبانی نمی‌شن. به جاش DoH فعاله که امن‌تره.
-- **محدودیت تعداد درخواست**: هر Worker برای VLESS و Trojan روزانه 100 هزار درخواست پشتیبانی می‌کنه، که برای 2-3 نفر کافیه. برای اتصال نامحدود می‌تونید از کانفیگ‌های Warp استفاده کنید.
+1. **UDP transport**: VLESS and Trojan protocols on workers do not handle **UDP** properly, so it is disabled by default (affecting features like Telegram video calls), UDP DNS is also unsupported. DoH is enabled by default for enhanced security.
+2. **Request limit**: each worker supports 100K requests per day for VLESS and Trojan, suitable for 2-3 users. You can use limitless Warp configs.
 
-## شروع به کار
+## Getting started
 
-- [روش‌های راه‌اندازی](https://bia-pain-bache.github.io/BPB-Worker-Panel/fa/installation/wizard/)
-- [راهنمای تنظیمات](https://bia-pain-bache.github.io/BPB-Worker-Panel/fa/configuration/)
-- [نحوه‌ی استفاده](https://bia-pain-bache.github.io/BPB-Worker-Panel/fa/usage/)
-- [پرسش‌های متداول (FAQ)](https://bia-pain-bache.github.io/BPB-Worker-Panel/en/faq/)
+- [Installation methods](https://bia-pain-bache.github.io/BPB-Worker-Panel/installation/wizard/)
+- [Configuration](https://bia-pain-bache.github.io/BPB-Worker-Panel/configuration/)
+- [How to use](https://bia-pain-bache.github.io/BPB-Worker-Panel/usage/)
+- [FAQ](https://bia-pain-bache.github.io/BPB-Worker-Panel/faq/)
 
-## برنامه‌های پشتیبانی شده
+## Supported Clients
 
-<div dir="rtl">
+|       Client        |      Version      |  Fragment support  |  Warp Pro support  |
+| :-----------------: | :---------------: | :----------------: | :----------------: |
+|     **v2rayNG**     | 1.10.26 or higher | :heavy_check_mark: | :heavy_check_mark: |
+|     **MahsaNG**     |   14 or higher    | :heavy_check_mark: | :heavy_check_mark: |
+|     **v2rayN**      | 7.15.4 or higher  | :heavy_check_mark: | :heavy_check_mark: |
+|   **v2rayN-PRO**    |   1.9 or higher   | :heavy_check_mark: | :heavy_check_mark: |
+|    **Sing-box**     | 1.12.0 or higher  | :heavy_check_mark: |        :x:         |
+|    **Streisand**    | 1.6.64 or higher  | :heavy_check_mark: | :heavy_check_mark: |
+|   **Clash Meta**    |                   |        :x:         | :heavy_check_mark: |
+| **Clash Verge Rev** |                   |        :x:         | :heavy_check_mark: |
+|     **FLClash**     |                   |        :x:         | :heavy_check_mark: |
+|   **AmneziaVPN**    |                   |        :x:         | :heavy_check_mark: |
+|    **WG Tunnel**    |                   |        :x:         | :heavy_check_mark: |
 
-|       Client        |     Version      | پشتیبانی از Fragment | پشتیبانی از Warp Pro |
-| :-----------------: | :--------------: | :------------------: | :------------------: |
-|     **v2rayNG**     | 1.10.26 و بالاتر |  :heavy_check_mark:  |  :heavy_check_mark:  |
-|     **MahsaNG**     |   14 و بالاتر    |  :heavy_check_mark:  |  :heavy_check_mark:  |
-|     **v2rayN**      | 7.15.4 و بالاتر  |  :heavy_check_mark:  |  :heavy_check_mark:  |
-|   **v2rayN-PRO**    |   2.0 و بالاتر   |  :heavy_check_mark:  |  :heavy_check_mark:  |
-|    **Sing-box**     | 1.12.0 و بالاتر  |  :heavy_check_mark:  |         :x:          |
-|    **Streisand**    | 1.6.64 و بالاتر  |  :heavy_check_mark:  |  :heavy_check_mark:  |
-|   **Clash Meta**    |                  |         :x:          |  :heavy_check_mark:  |
-| **Clash Verge Rev** |                  |         :x:          |  :heavy_check_mark:  |
-|     **FLClash**     |                  |         :x:          |  :heavy_check_mark:  |
-|   **AmneziaVPN**    |                  |         :x:          |  :heavy_check_mark:  |
-|    **WG Tunnel**    |                  |         :x:          |  :heavy_check_mark:  |
+## Environment variables
 
-</div>
-
-## متغیرهای محیطی (داشبورد کلادفلر)
-
-<div dir="rtl">
-
-|  نام متغیر   |           مورد استفاده            |       اجباری       |
-| :----------: | :-------------------------------: | :----------------: |
-|   **UUID**   |      UUID برای پروتکل VLESS       | :heavy_check_mark: |
-| **TR_PASS**  |        پسورد پروتکل Trojan        | :heavy_check_mark: |
-| **PROXY_IP** |   Proxy IP برای VLESS و Trojan    |        :x:         |
-|  **PREFIX**  | NAT64 Prefix برای VLESS و Trojan  |        :x:         |
-| **SUB_PATH** |     مسیر لینک‌های اشتراک شخصی     |        :x:         |
-| **FALLBACK** | دامنه‌ی پوششی برای VLESS و Trojan |        :x:         |
-| **DOH_URL**  |    DOH برای عملیات داخلی ورکر     |        :x:         |
-
-</div>
+|   Variable   |               Usage                |     Mandatory      |
+| :----------: | :--------------------------------: | :----------------: |
+|   **UUID**   |             VLESS UUID             | :heavy_check_mark: |
+| **TR_PASS**  |          Trojan Password           | :heavy_check_mark: |
+| **PROXY_IP** | Proxy IP or domain (VLESS, Trojan) |        :x:         |
+|  **PREFIX**  |   NAT64 Prefixes (VLESS, Trojan)   |        :x:         |
+| **SUB_PATH** |         Subscriptions' URI         |        :x:         |
+| **FALLBACK** |  Fallback domain (VLESS, Trojan)   |        :x:         |
+| **DOH_URL**  |              Core DOH              |        :x:         |
 
 ---
 
-## تعداد ستاره‌ها به مرور زمان
+## Stargazers Over Time
 
-[![تعداد ستاره‌ها به مرور زمان](https://starchart.cc/bia-pain-bache/BPB-Worker-Panel.svg?variant=adaptive)](https://starchart.cc/bia-pain-bache/BPB-Worker-Panel)
+[![Stargazers Over Time](https://starchart.cc/bia-pain-bache/BPB-Worker-Panel.svg?variant=adaptive)](https://starchart.cc/bia-pain-bache/BPB-Worker-Panel)
 
 ---
 
-### تشکر ویژه
+### Special Thanks
 
-- نویسنده پروتکل‌های VLESS و Trojan [پروکسی Cloudflare-workers/pages](https://github.com/yonggekkk/Cloudflare-workers-pages-vless)
-- نویسنده کد CF-vless [3Kmfi6HP](https://github.com/3Kmfi6HP/EDtunnel)
-- نویسنده برنامه IP ترجیحی CF [badafans](https://github.com/badafans/Cloudflare-IP-SpeedTest)، [XIU2](https://github.com/XIU2/CloudflareSpeedTest)
+- VLESS, Trojan [Cloudflare-workers/pages proxy script](https://github.com/yonggekkk/Cloudflare-workers-pages-vless) created by [yonggekkk](https://github.com/yonggekkk)
+- CF-vless code author [3Kmfi6HP](https://github.com/3Kmfi6HP/EDtunnel)
+- CF preferred IP program author [badafans](https://github.com/badafans/Cloudflare-IP-SpeedTest), [XIU2](https://github.com/XIU2/CloudflareSpeedTest)
